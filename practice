@@ -1,1 +1,17 @@
 
+
+
+3 June 2017
+
+
+
+#function prints square of number
+#%d is a number (digit) placeholder in a string
+def square(n):
+	squared=n**2
+	print ("%d squared is %d" % (n,squared))
+  
+
+#print function
+def fun():
+	print ("First exercise!")
