@@ -1,3 +1,18 @@
+10 june 2017 80min
+
+#find longest word in sentence
+#str.maketrans
+#str.split("[sepatorcharacter]")
+def lon(sen):
+	removingptable=sen.maketrans('','','"!@#$%^&*()~`:;"{[}]|\<,>.?/"') 
+	sen=sen.translate(removingptable)
+	print (sen)
+	arr=sen.split(' ')
+	return max(arr, key=len))
+
+
+
+
 8 june 2017
 
 #factorials
